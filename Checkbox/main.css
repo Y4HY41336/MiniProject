@@ -1,0 +1,70 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: gray;
+    gap: 10px;
+}
+
+.button{
+    width: 70px;
+    height: 30px;
+    background-color: rgb(199, 199, 199);
+    border: 0;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.circle{
+    width: 26px;
+    height: 26px;
+    border-radius: 50%;
+    background-color: white;
+    margin-left: 5px;
+    transition: 200ms;
+
+}
+
+.active{
+    margin-left: 40px;
+    transition: 200ms;
+    background-color: #20a1ff;
+
+}
+
+.container{
+    width: 30px;
+    height: 30px;
+    background-color: white;
+    border: 2px solid rgb(194, 194, 194);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box{
+    display: none;
+    width: 17px;
+    height: 17px;
+    background-color: #20a1ff;
+    border-radius: 50%;
+    transition: 200ms;
+
+}
+
+.isOnBox{
+    display: block;
+    transition: 200ms;
+
+}
+.isOnCon{
+    border-color: #20a1ff;
+    transition: 200ms;
+
+}
